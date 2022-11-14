@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "img": "assets/images/img/1.svg",
+    "name": "Periodic Services",
+    "img1": "assets/images/img1/1.jpg",
+    "img2": "assets/images/img1/2.jpg"
+  },
+  {
+    "id": 2,
+    "img": "assets/images/img/2.png",
+    "name": "AC Service And Repair",
+    "img1": "assets/images/img1/3.jpg",
+    "img2": "assets/images/img1/4.jpg"
+
+  },
+  {
+    "id": 3,
+    "img": "assets/images/img/3.svg",
+    "name": "Batteries And Repair",
+    "img1": "assets/images/img1/5.jpg",
+    "img2": "assets/images/img1/6.jpg"
+    
+
+  },
+  {
+    "id": 4,
+    "img": "assets/images/img/4.svg",
+    "name": "Tyres And Wheel Care",
+    "img1": "assets/images/img1/7.jpg",
+    "img2": "assets/images/img1/8.jpg"
+  },
+  {
+    "id": 5,
+    "img": "assets/images/img/5.svg",
+    "name": "Denting And Painting",
+    "img1": "assets/images/img1/9.jpg",
+    "img2": "assets/images/img1/10.jpg"
+  },
+  {
+    "id": 6,
+    "img": "assets/images/img/6.svg",
+    "name": "Detailing Services",
+    "img1": "assets/images/img1/11.jpg",
+    "img2": "assets/images/img1/12.jpg"
+  },
+  {
+    "id": 7,
+    "img": "assets/images/img/7.png",
+    "name": "Car Spa And Cleaning",
+    "img1": "assets/images/img1/13.jpg",
+    "img2": "assets/images/img1/14.jpg"
+  },
+  {
+    "id": 8,
+    "img": "assets/images/img/8.png",
+    "name": "Car Inspections",
+    "img1": "assets/images/img1/15.jpg",
+    "img2": "assets/images/img1/16.jpg"
+  },
+  {
+    "id": 9,
+    "img": "assets/images/img/9.png",
+    "name": "Windshields And Lights",
+    "img1": "assets/images/img1/17.jpg",
+    "img2": "assets/images/img1/18.jpg"
+  },
+  {
+    "id": 10,
+    "img": "assets/images/img/10.png",
+    "name": "Suspension And Fitment",
+    "img1": "assets/images/img1/19.jpg",
+    "img2": "assets/images/img1/20.jpg"
+  },
+  {
+    "id": 11,
+    "img": "assets/images/img/11.png",
+    "name": "Clutch And Bumpers",
+    "img1": "assets/images/img1/21.jpg",
+    "img2": "assets/images/img1/22.jpg"
+  },
+  {
+    "id": 12,
+    "img": "assets/images/img/12.svg",
+    "name": "Insurance Claims",
+    "img1": "assets/images/img1/23.jpg",
+    "img2": "assets/images/img1/24.jpg"
+  }
+]
