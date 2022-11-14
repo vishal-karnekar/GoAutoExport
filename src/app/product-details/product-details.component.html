@@ -1,0 +1,47 @@
+<div class="container" style=" background: linear-gradient(to top, #63004a, #eb00df);">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-6">
+            <div *ngIf="fetched_product$ |async as product; else noProduct">
+
+                <div class="card mb-5 mt-5" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <h5 class="card-title d-flex justify-content-center fw-bold">{{product.name}}</h5>
+                        <div class="col-md-4">
+                            <img [src]="product.img1"
+                                class="img-fluid rounded-start border border-dark p-2 mb-2 border-opacity-25"
+                                alt="{{product.name}}">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">Trustworthy</p>
+                                <p class="card-text"><small class="text-muted">GoAutoExpert</small></p>
+                                <input class="btn btn-primary" type="submit" value="Add To Cart" (click)="addToCart()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-5 mt-5" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <h5 class="card-title d-flex justify-content-center fw-bold">{{product.name}}</h5>
+                        <div class="col-md-4">
+                            <img [src]="product.img2"
+                                class="img-fluid rounded-start border border-dark p-2 mb-2 border-opacity-25"
+                                alt="{{product.name}}">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">With Warranty</p>
+                                <p class="card-text"><small class="text-muted">GoAutoExpert</small></p>
+                                <input class="btn btn-primary" type="submit" value="Add To Cart" (click)="addToCart()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <ng-template #noProduct><img src="assets/images/11.gif" class="mt-5 mb-5 d-flex justify-content-center ">
+            </ng-template>
+        </div>
+    </div>
+</div>

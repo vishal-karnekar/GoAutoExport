@@ -1,0 +1,107 @@
+<!-- ==========navbar start========== -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid back">
+    <a class="navbar-brand">
+      <img src="assets/images/logo/logo.png" width="90" height="40">
+    </a>
+    <a class="navbar-brand" [routerLink]="['/home']">{{title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/contact-us']">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/about-us']">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/faqs']">FAQs</a>
+        </li>
+      </ul>
+
+      <button class="btn btn-light me-5" type="button" [routerLink]="['/quote']">Book Service Now !!</button>
+
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-light me-3" type="submit">Search</button>
+      </form>
+
+     
+      <button type="button" class="btt btn-light position-relative me-4" (click)="showCartValue()">
+        <i class="bi bi-cart-check-fill"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          {{cv}}
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
+
+    </div>
+  </div>
+</nav>
+<!-- ==========navbar end========== -->
+<!-- <app-home></app-home> -->
+
+<router-outlet></router-outlet>
+
+<!-- ==========Footer Starts========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <ul>
+          <li><a [routerLink]="['/faqs']">FAQs</a></li>
+          <li><a [routerLink]="['/contact-us']">Contact us</a></li>
+          <li><a>Terms And Conditions</a></li>
+          <li><a>privacy policy</a></li>
+          <li><a>Work shop locator</a></li>
+          <li><a>Offers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a>Scheduled Services</a></li>
+          <li><a>AC Services</a></li>
+          <li><a>Cleaning And Detailing</a></li>
+          <li><a>Insurance Services</a></li>
+          <li><a>Custom Repair</a></li>
+          <li><a>Battaries</a></li>
+          <li><a>Tyres</a></li>
+          <li><a>Windshield And Glass</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Workshops</h4>
+        <ul>
+          <li><a>Mumbai</a></li>
+          <li><a>Pune</a></li>
+          <li><a>Chinchwad</a></li>
+          <li><a>Nagar</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end"> <img
+            src="assets/images/logo/logo.png" width="90" height="40">&nbsp;&nbsp;
+          <a class="title" [routerLink]="['/home']">GoAutoExpert</a>
+        </div>
+        <div class="social-links mt-3">
+          <a><i class="bi bi-facebook"></i></a>
+          <a><i class="bi bi-twitter"></i></a>
+          <a><i class="bi bi-instagram"></i></a>
+          <a><i class="bi bi-youtube"></i></a>
+        </div>
+        <img src="assets/images/logo/9.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ==========Footer end========== -->
